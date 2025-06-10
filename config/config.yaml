@@ -1,0 +1,14 @@
+settings:
+  WINDOW_TITLE: "aimlab_tb"
+  roi_width: 640
+  roi_height: 380
+  debug: true
+  control_mose: false
+  fire_switch: 1  # 0 是 边缘打击 ， 1 是中心打击
+  fire_k: 10
+
+logging:
+  level: "INFO"
+
+device:
+  path: "devices/MouseControl.dll"
